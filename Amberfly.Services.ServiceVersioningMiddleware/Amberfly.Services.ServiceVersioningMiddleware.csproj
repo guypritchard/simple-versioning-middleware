@@ -9,6 +9,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Simple Service Versioning Endpoint and Headers</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/guypritchard/simple-versioning-middleware/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/guypritchard/simple-versioning-middleware</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/guypritchard/simple-versioning-middleware</RepositoryUrl>
+    <PackageTags>.net+core middleware microservices version</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
