@@ -1,7 +1,7 @@
 # simple-versioning-middleware
 Super simple service versioning middleware
 
-This middleware simply returns the versioning information of (in all liklihood a webapi service) the micro-service you are interested in.
+This middleware simply returns the versioning information of (in all likelihood a webapi service) the micro-service you are interested in.
 
 This can be useful if trying to track the deployed version of your service, particularly helpful for troubleshooting. 
 
