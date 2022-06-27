@@ -1,4 +1,6 @@
 # simple-versioning-middleware
+[![Build & Publish](https://github.com/guypritchard/simple-versioning-middleware/actions/workflows/publish.yml/badge.svg)](https://github.com/guypritchard/simple-versioning-middleware/actions/workflows/publish.yml)
+
 Super simple service versioning middleware
 
 This middleware simply returns the versioning information of (in all likelihood a webapi service) the micro-service you are interested in.
