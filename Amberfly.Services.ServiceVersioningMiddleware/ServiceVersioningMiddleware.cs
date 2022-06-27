@@ -1,7 +1,7 @@
 ﻿namespace ServiceVersioningMiddleware
 {
     using Microsoft.AspNetCore.Http;
-    using Newtonsoft.Json;
+    using System.Text.Json;
     using System;
     using System.Net.Mime;
     using System.Text;
@@ -41,7 +41,7 @@
                     context.Response.ContentType = MediaTypeNames.Application.Json;
 
                     await context.Response.WriteAsync(
-                        JsonConvert.SerializeObject(
+                        JsonSerializer.Serialize(
                             new 
                             { 
                                 version = AssemblyVersion.Version,
