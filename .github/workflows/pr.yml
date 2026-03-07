@@ -15,7 +15,9 @@ jobs:
       BUILD_VER: 1.0.${{ github.run_number }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v4
         with:
